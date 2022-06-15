@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides",
+      "code": "ERR_PNPM_INVALID_OVERRIDE_SELECTOR",
+      "stack": "pnpm: Cannot parse the \"next-api-og-image/chrome-aws-lambda\" selector in the overrides\n    at parsePkgSelector (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:119718:15)\n    at /Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:119710:22\n    at Array.map (<anonymous>)\n    at parseOverrides (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:119696:40)\n    at default_1 (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:119742:152)\n    at createReadPackageHook (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:120790:58)\n    at mutateModules (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:120536:32)\n    at async install (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:120510:24)\n    at async handler (/Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:122141:31)\n    at async /Users/thor2/.node/corepack/pnpm/7.2.1/dist/pnpm.cjs:186810:21"
+    }
+  }
+}
